@@ -19,3 +19,6 @@ jobs:
           node-version: 13.x
           cache: npm
       - run: npm i
+      - run: pm2 stop 1
+      - run: pm2 start 1
+      - run: pm2 save
