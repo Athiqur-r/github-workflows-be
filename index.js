@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/raheman', function (req, res) {
-  res.status(200).send('I am Mohammad Athiqur Raheman');
+  res.status(200).send('Mohammad Athiqur Raheman');
 });
 
 var port = process.env.PORT || 8000;
